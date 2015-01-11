@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+    <title>Meg Fryling, Ph.D.</title>
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <!--<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">-->
+    <!--<link href="bootstrap.min.css" rel="stylesheet">-->
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>    <![endif]-->
+    <!-- Custom styles for this template -->
+    <link href="./css/carousel.css" rel="stylesheet">
+    <!-- Optional theme -->
+    <!--<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">-->
+    <!-- Custom styles for this template -->
+    <link href="./css/custom.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+      rel="stylesheet">
+  </head>
+  <!-- NAVBAR
+================================================== --> <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header"> <button type="button" class="navbar-toggle"
+                data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle
+                  navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+                <span class="icon-bar"></span> </button> <a class="navbar-brand"
+                href="index.html">&nbsp; Home</a> </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="officeHours.html"><span class="glyphicon glyphicon-user"></span>&nbsp;
+                    Contact</a></li>
+                <li><a href="background.html">Background</a></li>
+                <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Teaching</a>
+                  <ul class="dropdown-menu">
+                    <li class="divider"><br>
+                    </li>
+                    <li class="dropdown-header">Siena College</li>
+                    <li><a href="teachingSiena.html">Courses Taught</a></li>
+                    <li><a href="officeHours.html">Office Hours</a></li>
+                    <li><a href="schedule.html">Schedule</a></li>
+                    <li class="divider"><br>
+                    </li>
+                    <li class="dropdown-header">UAlbany</li>
+                    <li><a href="teachingUAlbany.html">Courses Taught</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Scholarship</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="grants.html">Grants</a></li>
+                    <li><a href="presentations.html">Presentations</a></li>
+                    <li><a href="publications.html">Publications</a></li>
+                    <li><a href="http://preventcyberbullying.org/" target="_blank">Cyberbullying
+                        Research</a></li>
+                  </ul>
+                </li>
+                <li><a href="http://www.siena.edu/cs" target="_blank">CS@Siena</a></li>
+                <li><a href="http://www.siena.edu" target="_blank">&nbsp; Siena
+                    College</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"><br>
+        </li>
+        <li data-target="#myCarousel" data-slide-to="1"><br>
+        </li>
+        <li data-target="#myCarousel" data-slide-to="2"><br>
+        </li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active"> <img src="SienaHall1.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Software Engineering @ Siena</h1>
+              <!--p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>-->
+              <a class="btn btn-lg btn-primary" href="./SoftwareEngineering/" role="button">Learn
+                More »</a> </div>
+          </div>
+        </div>
+        <div class="item"> <img src="UAlbanyGraduation2-edited.jpg" alt="">
+          <!--<img src="http://placehold.it/900x500" alt="">-->
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Cyberbullying Research @ Siena</h1>
+              <!--<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>-->
+              <p><a class="btn btn-lg btn-primary" href="http://preventcyberbullying.org/"
+                  role="button" target="_blank">Learn more »</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span
+          class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control"
+        href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div>
+    <!-- /.carousel -->
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+    <div class="container marketing">
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-md-4">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title"><span class="glyphicon glyphicon-user"></span>&nbsp;Contact
+                Information</h3>
+            </div>
+            <div class="panel-body"> <strong>Office:</strong>&nbsp;Roger Bacon
+              311<br>
+              <strong>Email:</strong>&nbsp; mfryling at siena.edu<br>
+              <strong>Phone:</strong>&nbsp;(518) 782-6798<br>
+              <a href="http://twitter.com/sienadrmeg" target="_blank">&nbsp;@SienaDrMeg</a>
+              <!--<a href="index.html"><span class="glyphicon glyphicon-info-sign"></span> More info &raquo;</a>-->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title">&nbsp;Fall 2014 Office Hours</h3>
+            </div>
+            <div class="panel-body">
+              <ul>
+                <li>Tuesday 10:30-11:30am and 2:30-4:30pm</li>
+                <li>Thursday 2:30-4:30pm</li>
+                <li>by appointment</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title">&nbsp;Spring 2015 Office Hours</h3>
+            </div>
+            <div class="panel-body">
+              <ul>
+                <li>Monday 1:30-3:30pm <br>
+                </li>
+                <li>Tuesday 5:00-6:00pm<br>
+                </li>
+                <li>Wednesday 1:30-3:30pm</li>
+                <li>by appointment</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.row -->
+      <!-- FOOTER -->
+      <footer>
+        <hr>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>© 2014 Meg Fryling ·</p>
+        <p>Bootstrap was designed and built by <a href="http://twitter.com/mdo"
+            target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.
+          Fabulous icons from <a href="http://glyphicons.com">Glyphicons Free</a>,
+          licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC
+            BY 3.0</a>. </p>
+      </footer>
+    </div>
+    <!-- /.container -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')</script>
+    <!--<script src="/js/bootstrap.min.js"></script>
+    <script src="/js/docs.min.js"></script>-->
+    <!-- Latest compiled and minified CSS -->
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
