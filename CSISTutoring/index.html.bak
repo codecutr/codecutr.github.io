@@ -43,30 +43,39 @@
         <table class="table table-bordered table-striped">
           <thead>
             <tr>
-              <th>Day</th>
-              <th> Tutors<br>
+              <th>Day/Time</th>
+              <th style="width: 188px;"> Regular Tutor<br>
               </th>
-              <th> Courses Covered<br>
+              <td style="width: 232px;"><span style="font-weight: bold;">Subs</span></td>
+              <th style="margin-left: 46px;"> Courses Covered<br>
               </th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td colspan="1" rowspan="2">Sunday<br>
+                7-10pm<br>
               </td>
               <td> <span style="font-weight: bold; text-decoration: underline;"></span><br>
+              </td>
+              <td><br>
               </td>
               <td><span style="font-weight: bold; text-decoration: underline;"></span><br>
               </td>
             </tr>
             <tr>
-              <td><br>
+              <td style="width: 170px;"><br>
               </td>
-              <td><br>
-              </td>
+              <td style="margin-left: -65px;">Emily Roehl</td>
+              <td>CSIS010: Intro to Computer Applications, CSIS114: Management
+                Information Systems, &amp; CSIS115: Database Design and
+                Applications for Business </td>
             </tr>
             <tr>
-              <td colspan="1" rowspan="2">Monday</td>
+              <td colspan="1" rowspan="2">Monday<br>
+                7-10pm</td>
+              <td><br>
+              </td>
               <td><br>
               </td>
               <td><br>
@@ -74,50 +83,65 @@
             </tr>
             <tr>
               <td>Emily Roehl<br>
-                <br>
+              </td>
+              <td><br>
               </td>
               <td>CSIS010: Intro to Computer Applications, CSIS114: Management
                 Information Systems, &amp; CSIS115: Database Design and
                 Applications for Business </td>
             </tr>
             <tr>
-              <td colspan="1" rowspan="2">Tuesday</td>
-              <td>Elena Covill<br>
+              <td colspan="1" rowspan="2">Tuesday<br>
+                7-10pm</td>
+              <td style="width: 167px;">Elena Covill<br>
               </td>
+              <td style="margin-left: -64px;">Emma Bostian (Alice)<br>
+                Felicia Bassey (Alice)</td>
               <td>CSIS110: Intro to CS&nbsp; (Multimedia - Python), CSIS120:
                 Intro to Programming, &amp; CSIS210: Data Structures<br>
               </td>
             </tr>
             <tr>
               <td>Jacquelyn Verdon</td>
+              <td><br>
+              </td>
               <td>CSIS010: Intro to Computer Applications, CSIS114: Management
                 Information Systems, &amp; CSIS115: Database Design and
                 Applications for Business</td>
             </tr>
             <tr>
-              <td colspan="1" rowspan="2">Wednesday</td>
+              <td colspan="1" rowspan="2">Wednesday<br>
+                7-10pm</td>
               <td style="width: 233px;">Elena Covill<br>
+              </td>
+              <td><br>
               </td>
               <td style="margin-left: 114px;">CSIS110: Intro to CS&nbsp;
                 (Multimedia - Python), CSIS120: Intro to Programming, &amp;
-                CSIS210: Data Structures </td>
+                CSIS210: Data Structures</td>
             </tr>
             <tr>
               <td>Jacquelyn Verdon</td>
+              <td><br>
+              </td>
               <td>CSIS010: Intro to Computer Applications, CSIS114: Management
                 Information Systems, &amp; CSIS115: Database Design and
                 Applications for Business</td>
             </tr>
             <tr>
-              <td style="width: 125px;" colspan="1" rowspan="2">Thursday</td>
-              <td><br>
+              <td style="width: 125px;" colspan="1" rowspan="2">Thursday<br>
+                7-10pm</td>
+              <td style="width: 194px;"><br>
               </td>
-              <td><br>
+              <td>Emma Bostian (Alice)<br>
+                Felicia Bassey (Alice)</td>
+              <td style="margin-left: -56px;"><br>
               </td>
             </tr>
             <tr>
               <td>Emily Roehl<br>
               </td>
+              <td>Jacquelyn Verdon</td>
               <td>CSIS010: Intro to Computer Applications, CSIS114: Management
                 Information Systems, &amp; CSIS115: Database Design and
                 Applications for Business </td>
