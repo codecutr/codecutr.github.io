@@ -7,10 +7,9 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
-    <title>IS Lecture Series</title>
+    <title>CSIS Tutoring</title>
     <!-- Bootstrap core CSS -->
-    <link href="http://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet"
-
+    <link href="http://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet"
       type="text/css">
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -33,13 +32,13 @@
   </head>
   <!-- NAVBAR
 ================================================== --> <body>
-  <!--******************************-->
-    <div id="includedContent"></div> 
-  <!--******************************-->
+    <!--******************************-->
+    <div id="includedContent"></div>
+    <!--******************************-->
     <!--================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
     <div class="container bs-docs-container">
-      <h1>Spring 2015</h1>
+      <h1>Spring 2015 Schedule</h1>
       <div class="table-responsive">
         <table class="table table-bordered table-striped">
           <thead>
@@ -53,7 +52,7 @@
           </thead>
           <tbody>
             <tr>
-              <td>Sunday<br>
+              <td colspan="1" rowspan="2">Sunday<br>
               </td>
               <td> <span style="font-weight: bold; text-decoration: underline;"></span><br>
               </td>
@@ -61,28 +60,60 @@
               </td>
             </tr>
             <tr>
-              <td>Monday</td>
               <td><br>
               </td>
               <td><br>
               </td>
             </tr>
             <tr>
-              <td>Tuesday</td>
+              <td colspan="1" rowspan="2">Monday</td>
               <td><br>
               </td>
               <td><br>
               </td>
             </tr>
             <tr>
-              <td>Wednesday</td>
               <td><br>
               </td>
               <td><br>
               </td>
             </tr>
             <tr>
-              <td>Thursday</td>
+              <td colspan="1" rowspan="2">Tuesday</td>
+              <td>Elena Covill<br>
+              </td>
+              <td>CSIS110: Intro to CS&nbsp; (Multimedia - Python), CSIS120:
+                Intro to Programming, &amp; CSIS210: Data Structures<br>
+              </td>
+            </tr>
+            <tr>
+              <td><br>
+              </td>
+              <td><br>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="1" rowspan="2">Wednesday</td>
+              <td style="width: 233px;">Elena Covill<br>
+              </td>
+              <td style="margin-left: 114px;">CSIS110: Intro to CS&nbsp;
+                (Multimedia - Python), CSIS120: Intro to Programming, &amp;
+                CSIS210: Data Structures </td>
+            </tr>
+            <tr>
+              <td><br>
+              </td>
+              <td><br>
+              </td>
+            </tr>
+            <tr>
+              <td style="width: 125px;" colspan="1" rowspan="2">Thursday</td>
+              <td><br>
+              </td>
+              <td><br>
+              </td>
+            </tr>
+            <tr>
               <td><br>
               </td>
               <td><br>
@@ -96,8 +127,7 @@
         <hr>
         <p class="pull-right"><a href="#">Back to top</a></p>
         <p>© 2014 <a target="_blank" href="http://megfryling.com">Meg Fryling</a>.
-          Bootstrap was designed and built by <a href="http://twitter.com/mdo"
-
+          Bootstrap was designed and built by <a href="http://twitter.com/mdo"
             target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.
           Fabulous icons from <a href="http://glyphicons.com">Glyphicons Free</a>,
           licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC
