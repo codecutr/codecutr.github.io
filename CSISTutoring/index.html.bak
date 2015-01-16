@@ -9,7 +9,8 @@
     <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
     <title>IS Lecture Series</title>
     <!-- Bootstrap core CSS -->
-    <link href="http://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet"
+    <link href="http://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet"
+
       type="text/css">
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -32,7 +33,9 @@
   </head>
   <!-- NAVBAR
 ================================================== --> <body>
-    <!-- <div id="includedContent"></div> -->
+  <!--******************************-->
+    <div id="includedContent"></div> 
+  <!--******************************-->
     <!--================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
     <div class="container bs-docs-container">
@@ -93,7 +96,8 @@
         <hr>
         <p class="pull-right"><a href="#">Back to top</a></p>
         <p>© 2014 <a target="_blank" href="http://megfryling.com">Meg Fryling</a>.
-          Bootstrap was designed and built by <a href="http://twitter.com/mdo"
+          Bootstrap was designed and built by <a href="http://twitter.com/mdo"
+
             target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.
           Fabulous icons from <a href="http://glyphicons.com">Glyphicons Free</a>,
           licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC
