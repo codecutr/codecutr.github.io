@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+    <title>Meg Fryling, Ph.D.</title>
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <!--<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">-->
+    <!--<link href="bootstrap.min.css" rel="stylesheet">-->
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>    <![endif]-->
+    <!-- Custom styles for this template -->
+    <link href="./css/carousel.css" rel="stylesheet">
+    <!-- Optional theme -->
+    <!--<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">-->
+    <!-- Custom styles for this template -->
+    <link href="./css/custom.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+
+      rel="stylesheet">
+  </head>
+  <!-- NAVBAR
+================================================== --> <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header"> <button type="button" class="navbar-toggle"
+
+                data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle
+                  navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+                <span class="icon-bar"></span> </button> <a class="navbar-brand"
+
+                href="index.html">&nbsp; Home</a> </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="officeHours.html"><span class="glyphicon glyphicon-user"></span>&nbsp;
+                    Contact</a></li>
+                <li><a href="background.html">Background</a></li>
+                <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Teaching</a>
+                  <ul class="dropdown-menu">
+                    <li class="divider"><br>
+                    </li>
+                    <li class="dropdown-header">Siena College</li>
+                    <li><a href="teachingSiena.html">Courses Taught</a></li>
+                    <li><a href="officeHours.html">Office Hours</a></li>
+                    <li><a href="schedule.html">Schedule</a></li>
+                    <li class="divider"><br>
+                    </li>
+                    <li class="dropdown-header">UAlbany</li>
+                    <li><a href="teachingUAlbany.html">Courses Taught</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Scholarship</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="presentations.html">Presentations</a></li>
+                    <li><a href="publications.html">Publications</a></li>
+                    <li><a href="http://preventcyberbullying.org/" target="_blank">Cyberbullying
+                        Research</a></li>
+                  </ul>
+                </li>
+                <li><a href="http://www.siena.edu/cs" target="_blank">CS@Siena</a></li>
+                <li><a href="http://www.siena.edu" target="_blank">&nbsp; Siena
+                    College</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"><br>
+        </li>
+        <li data-target="#myCarousel" data-slide-to="1"><br>
+        </li>
+        <li data-target="#myCarousel" data-slide-to="2"><br>
+        </li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active"> <img src="SienaHall1.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Software Engineering @ Siena</h1>
+              <!--p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>-->
+              <a class="btn btn-lg btn-primary" href="http://siena-software-engineering.com"
+
+                target="_blank" role="button">Learn More »</a> </div>
+          </div>
+        </div>
+        <div class="item"> <img src="UAlbanyGraduation2-edited.jpg" alt="">
+          <!--<img src="http://placehold.it/900x500" alt="">-->
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Cyberbullying Research @ Siena</h1>
+              <!--<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>-->
+              <p><a class="btn btn-lg btn-primary" href="http://preventcyberbullying.org/"
+
+                  role="button" target="_blank">Learn more »</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span
+
+          class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control"
+
+        href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div>
+    <!-- /.carousel -->
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+    <div class="container marketing">
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">&nbsp;Presentations</h3>
+          </div>
+          <div class="panel-body">
+            <div>
+              <ul>
+                <li>The social side of CS: Engaging Undergraduate Computer
+                  Science Students in the IRB Process for Research Investigating
+                  Cyberbullying in Online Multi-Player Gaming Environments.
+                  Consortium for Computing Sciences in Colleges — Northeastern
+                  Region (CCSCNE), Worcester, MA (April 2015).&nbsp;</li>
+                <li>Computer science workshop for the Young Women’s Science and Technology Seminar, Mohonasen High School, Rotterdam, NY
+2014 (November 20, 2014). 
+                  <li>Cyberbullying and Internet Safety. New York State Parent Teachers Association  (NYS PTA) 118th Annual Convention, Saratoga Springs, NY (November 15, 2014).
+<br>
+                </li>
+                <li><a href="http://proc.conisar.org/2014/pdf/3316.pdf">ERP
+                    Customization vs. Business Process Reengineering: Technical
+                    and Functional Perceptions</a>. Conference on Information
+                  Systems Applied Research (CONISAR), Baltimore, MD (November 7,
+                  2014).</li>
+                <li><a href="http://proc.conisar.org/2014/pdf/3307.pdf">Cyberbullying
+                    or normal game play?&nbsp; Impact of age, gender, and
+                    experience on perceptions regarding cyberbullying in
+                    multi-player online gaming environments</a>. Conference on
+                  Information Systems Applied Research (CONISAR), Baltimore, MD
+                  (November 7, 2014).<br>
+                  <span style="font-weight: bold; font-style: italic;">Received
+                    Best Paper Award</span></li>
+                <li><span style="font-style: italic;">Digital Footprint of
+                    Students</span>, <a href="http://casdany.org/uploads/2014/03/Social-Media-Flyer.pdf"
+
+                    target="_blank">Students and Social Media: A School’s Role
+                    and Responsibility</a>, Capital Area School Development
+                  Association (CASDA), Albany, NY (May 8th, 2014)</li>
+                <li><a href="http://proc.isecon.org/2013/pdf/2546.pdf"><i>Click
+                      It and Ticket: Extending the benefits of clickers in small
+                      classrooms to increase non-anonymous class participation</i></a>.
+                  Information Systems Educators Conference (ISECON), San
+                  Antonio, TX. (2013) </li>
+                <li><span><span><i><a href="http://www.systemdynamics.org/conferences/2013/proceed/papers/P1006.pdf"
+
+                          target="_blank">Investigation of Cyberbullying
+                          Phenomenon as an Epidemic</a></i>. 31st International
+                      Conference of the System Dynamics Society, Cambridge, MA.
+                      (2013) </span></span></li>
+                <li><i><a href="http://proc.conisar.org/2012/pdf/2228.pdf" target="_blank">Rocky
+                      Relationships: Enterprise Resource Planning and Supply
+                      Chain Management</a></i>, Conference on Information
+                  Systems Applied Research (CONISAR), New Orleans, LA. (2012) </li>
+                <li><i><a href="http://proc.conisar.org/2012/pdf/2207.pdf" target="_blank">Information
+                      Technology (IT) professional perceptions regarding the
+                      value of communication, collaboration, and the use of
+                      social networking technologies in the workplace: a case
+                      study</a></i>, Conference on Information Systems Applied
+                  Research (CONISAR), New Orleans, LA.(2012)</li>
+                <li><i>Which is cheaper, two scoops of vanilla ERP or one scoop
+                    of rocky road? Estimating the impact of enterprise resource
+                    planning (ERP) project management decisions on
+                    post-implementation maintenance costs</i>, Siena College,
+                  Loudonville, NY (2012)</li>
+                <li><span><span title="Description"><a href="http://www.systemdynamics.org/PhD_Colloquium/23rd/23rd%20colloquium.Meg.pdf"
+
+                        target="_blank"><i>Wash, Rinse, and Repeat: The Infinite
+                          Rework Cycle in the ERP Environment</i></a>, </span></span><span><span
+
+                      title="Title">MIT-UAlbany-WPI Ph.D. System Dynamics
+                      Colloquium, University at Albany, Albany, NY (2011) </span></span></li>
+                <li><i>Which is cheaper, two scoops of vanilla ERP or one scoop
+                    of rocky road? Estimating the impact of enterprise resource
+                    planning (ERP) project management decisions on
+                    post-implementation maintenance costs</i>, Siena College,
+                  Loudonville, NY (2011)</li>
+                <li><span><span title="Description"><a href="http://www.educause.edu/E2010/Program/SESS058"
+
+                        target="_blank"><i>TCO and Perceived Success of ERP
+                          Software: Simulating a Dynamic Feedback Perspective</i></a>,
+                    </span></span><span><span title="Title">EDUCAUSE 2010
+                      Presentation, Anaheim, CA (2010) </span></span></li>
+                <li><span><span title="Title"><i>Incorporating Technology into
+                        the Classroom</i>, </span></span><span><span title="Description">Columbia
+                      High School, </span></span><span><span title="Title">East
+                      Greenbush, NY (2010) </span></span></li>
+                <li><span><span title="Description"><a href="http://net.educause.edu/NC10/Program/1023272?PRODUCT_CODE=NC10/SESS21"
+
+                        target="_blank"><i>Total Cost of Ownership and Perceived
+                          Success of ERP Software: Simulating a Dynamic Feedback
+                          Perspective</i></a>, </span></span><span><span title="Title">NERCOMP
+                      2010 Presentation, Providence, RI </span></span></li>
+                <li><span><span title="Description"><i>Total Cost of Ownership
+                        of Enterprise Resource Planning Software:Simulating a
+                        Dynamic Feedback Perspective in the Higher Education
+                        Environment</i>, </span></span><span><span title="Title">MIT-UAlbany-WPI
+                      Ph.D. System Dynamics Colloquium, Albany, NY&lt; (2008) </span></span></li>
+                <li><span><span title="Description"><a href="http://www.albany.edu/cci/ntir/"
+
+                        target="_blank"><i>Enterprise Resource Planning Total
+                          Cost of Ownership in Higher Education: Ensuring
+                          Success and Return on Investment</i></a>, </span></span><span><span
+
+                      title="Title">New Trends in Informatics Research (NTIR)
+                      Conference, UAlbany, Albany, NY (2008) </span></span></li>
+                <li> <span><i>The #1 Project Manager’s Question: What is the
+                      status of a project/task?</i></span><span> Alliance
+                    Conference, Las Vegas, NV. (2008)</span> </li>
+                <li><span><span><i><a href="http://www.systemdynamics.org/conferences/2007/proceed/papers/FRYLI113.pdf"
+
+                          rel="nofollow" target="_blank">The Dynamics of ERP
+                          Success</a></i>. 25th International Conference of the
+                      System Dynamics Society, Boston, MA.</span></span></li>
+                <li><i><span>Beyond Financial Aid: The Search for Alternate
+                      Competitive Advantage Leverages in Higher Education</span></i><i><span>,</span></i><span>
+                    New Trends in Informatics Research (NTIR) Conference,
+                    Albany, NY (2007) </span></li>
+                <li><span><i>ERP Success Dynamics</i>, New Trends in Informatics
+                    Research (NTIR) Conference, Albany, NY (2006) </span></li>
+                <li><span><i>Student Records Ad Hoc Reporting Datamart Strategy</i>,
+                    Alliance Conference, Nashville, Tennessee.(2006)</span></li>
+                <li><span><span><i><a href="http://www.systemdynamics.org/conferences/2005/proceed/papers/FRYLI144.pdf"
+
+                          rel="nofollow" target="_blank">ERP Implementation
+                          Dynamics</a></i>. 23rd International Conference of the
+                      System Dynamics Society, Boston, MA. (2005) </span></span></li>
+              </ul>
+              <br>
+              <div>&nbsp;</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.row -->
+      <!-- FOOTER -->
+      <footer>
+        <hr>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>© 2014 Meg Fryling ·</p>
+        <p>Bootstrap was designed and built by <a href="http://twitter.com/mdo"
+
+            target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.
+          Fabulous icons from <a href="http://glyphicons.com">Glyphicons Free</a>,
+          licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC
+            BY 3.0</a>. </p>
+      </footer>
+    </div>
+    <!-- /.container -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')</script>
+    <!--<script src="/js/bootstrap.min.js"></script>
+    <script src="/js/docs.min.js"></script>-->
+    <!-- Latest compiled and minified CSS -->
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
