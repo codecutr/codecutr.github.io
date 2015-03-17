@@ -93,7 +93,7 @@
             <div class="carousel-caption">
               <h1>Software Engineering @ Siena</h1>
               <!--p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>-->
-              <a class="btn btn-lg btn-primary" href="./SoftwareEngineering/" role="button">Learn
+              <a class="btn btn-lg btn-primary" href="http://siena-software-engineering.com" target="_blank" role="button">Learn
                 More »</a> </div>
           </div>
         </div>
@@ -158,7 +158,7 @@
               <ul>
                 <li>Monday 1:30-3:30pm <br>
                 </li>
-                <li>Tuesday 5:00-6:00pm<br>
+                <li>Tuesday 6:00-7:00pm<br>
                 </li>
                 <li>Wednesday 1:30-3:30pm</li>
                 <li>by appointment</li>
