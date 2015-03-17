@@ -93,8 +93,8 @@
             <div class="carousel-caption">
               <h1>Software Engineering @ Siena</h1>
               <!--p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>-->
-              <a class="btn btn-lg btn-primary" href="http://siena-software-engineering.com" target="_blank" role="button">Learn
-                More »</a> </div>
+              <a class="btn btn-lg btn-primary" href="http://siena-software-engineering.com"
+                target="_blank" role="button">Learn More »</a> </div>
           </div>
         </div>
         <div class="item"> <img src="UAlbanyGraduation2-edited.jpg" alt="">
@@ -138,12 +138,15 @@
         <div class="col-md-4">
           <div class="panel panel-primary">
             <div class="panel-heading">
-              <h3 class="panel-title">&nbsp;Fall 2014 Office Hours</h3>
+              <h3 class="panel-title">&nbsp;Spring 2014 Office Hours</h3>
             </div>
             <div class="panel-body">
               <ul>
-                <li>Tuesday 10:30-11:30am and 2:30-4:30pm</li>
-                <li>Thursday 2:30-4:30pm</li>
+                <li>Monday 1:30-3:30pm <br>
+                </li>
+                <li>Tuesday 5:30-6:30pm<br>
+                </li>
+                <li>Wednesday 1:30-3:30pm</li>
                 <li>by appointment</li>
               </ul>
             </div>
@@ -152,44 +155,39 @@
         <div class="col-md-4">
           <div class="panel panel-primary">
             <div class="panel-heading">
-              <h3 class="panel-title">&nbsp;Spring 2015 Office Hours</h3>
+              <h3 class="panel-title">&nbsp;Fall 2015 Office Hours</h3>
             </div>
             <div class="panel-body">
               <ul>
-                <li>Monday 1:30-3:30pm <br>
-                </li>
-                <li>Tuesday 6:00-7:00pm<br>
-                </li>
-                <li>Wednesday 1:30-3:30pm</li>
-                <li>by appointment</li>
+                <li>TBA</li>
               </ul>
             </div>
           </div>
         </div>
+        <!-- /.row -->
+        <!-- FOOTER -->
+        <footer>
+          <hr>
+          <p class="pull-right"><a href="#">Back to top</a></p>
+          <p>© 2014 Meg Fryling ·</p>
+          <p>Bootstrap was designed and built by <a href="http://twitter.com/mdo"
+              target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.
+            Fabulous icons from <a href="http://glyphicons.com">Glyphicons Free</a>,
+            licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC
+              BY 3.0</a>. </p>
+        </footer>
       </div>
-      <!-- /.row -->
-      <!-- FOOTER -->
-      <footer>
-        <hr>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>© 2014 Meg Fryling ·</p>
-        <p>Bootstrap was designed and built by <a href="http://twitter.com/mdo"
-            target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.
-          Fabulous icons from <a href="http://glyphicons.com">Glyphicons Free</a>,
-          licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC
-            BY 3.0</a>. </p>
-      </footer>
-    </div>
-    <!-- /.container -->
-    <!-- Bootstrap core JavaScript
+      <!-- /.container -->
+      <!-- Bootstrap core JavaScript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')</script>
-    <!--<script src="/js/bootstrap.min.js"></script>
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+      <script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')</script>
+      <!--<script src="/js/bootstrap.min.js"></script>
     <script src="/js/docs.min.js"></script>-->
-    <!-- Latest compiled and minified CSS -->
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+      <!-- Latest compiled and minified CSS -->
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    </div>
   </body>
 </html>
