@@ -7,9 +7,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
-    <title>IS Lecture Series</title>
+    <title>SPARCS - Summer CSIS Experience</title>
     <!-- Bootstrap core CSS -->
-    <link href="http://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet"
+    <link href="http://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet"
+
       type="text/css">
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -45,13 +46,13 @@
             The program will be run in Roger Bacon Hall on Siena's campus
             Monday-Friday August 31 - September 4 (moving in on Sunday August
             30).&nbsp; There will be morning and afternoon sessions each day, as
-            well as some evening sessions.&nbsp; Some activities will involve a
-            computer and some will not.&nbsp; If you will be living on campus
-            for the Fall 2015 semester, you can simply move in to your regular
-            dorm room a week early.&nbsp; If not, we will put you up in a dorm
-            for the week.&nbsp; In either case, there is no cost to you for food
-            or lodging.&nbsp; In addition, if you live locally and would rather
-            not live in the dorms during the program, that is fine too.<br>
+            well as some evening sessions.&nbsp;&nbsp; If you will be living on
+            campus for the Fall 2015 semester, you can simply move in to your
+            regular dorm room a week early.&nbsp; If not, we will put you up in
+            a dorm for the week.&nbsp; In either case, there is no cost to you
+            for food or lodging.&nbsp; In addition, if you live locally and
+            would rather not live in the dorms during the program, that is fine
+            too.<br>
             <br>
             The goal of this program is to help you decide whether Computer
             Science is something you want to explore further (and if you do,
@@ -81,7 +82,8 @@
             prospects, how to choose a major/minor, research work, etc.<br>
             <br>
             Computer Science is an exciting field with many career opportunities
-            for majors and enhanced career opportunities for minors:&nbsp; “<a target="_blank"
+            for majors and enhanced career opportunities for minors:&nbsp; “<a target="_blank"
+
               href="http://finance.yahoo.com/blogs/daily-ticker/sexiest-job-21st-century-122238562.html">The
               sexiest job of the 21st century is not a social media entrepreneur
               nor Hollywood producer. If you take a cue from the Harvard
@@ -91,8 +93,10 @@
             <br>
             Seven of the top "Best Jobs in America" are in computing.&nbsp; What
             job was at the top? Computer Systems Engineer, making more than the
-            average college professor. Software engineering was rated <a target="_blank"
-              href="http://bit.ly/ZTCPoa">2012's Top Job</a> as well as <a target="_blank"
+            average college professor. Software engineering was rated <a target="_blank"
+
+              href="http://bit.ly/ZTCPoa">2012's Top Job</a> as well as <a target="_blank"
+
               href="http://bit.ly/ZTCIZP">America's Best Job of 2011</a>. But
             wait, there's more!&nbsp; According to the Bureau of Labor
             Statistics, CS/IT jobs are projected to be one of the
@@ -111,7 +115,8 @@
         <hr>
         <p class="pull-right"><a href="#">Back to top</a></p>
         <p>© 2014 <a target="_blank" href="http://megfryling.com">Meg Fryling</a>.
-          Bootstrap was designed and built by <a href="http://twitter.com/mdo"
+          Bootstrap was designed and built by <a href="http://twitter.com/mdo"
+
             target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.
           Fabulous icons from <a href="http://glyphicons.com">Glyphicons Free</a>,
           licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC
