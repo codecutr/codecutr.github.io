@@ -45,8 +45,8 @@
         Sunday-Thursday night from 7-10pm.&nbsp; The schedule below outlines the
         regular tutor on duty each night, possible subs, and the courses for
         which they can provide tutoring services.&nbsp; </p>
-      <h1>Spring 2015 Schedule</h1>
-      <p>Tutoring will begin Sunday, January 25th</p>
+      <h1>Fall 2015 Schedule (Tentative)</h1>
+      <p>Tutoring will begin TBD</p>
       <div class="table-responsive">
         <table class="table table-bordered table-striped">
           <thead>
@@ -65,21 +65,19 @@
                 7-10pm<br>
               </td>
               <td> <span style="font-weight: bold; text-decoration: underline;"></span>
-                Aidan Trees</td>
-              <td>Kean Smullen (Raspberry Pi)<br>
-                Elena Covill (Multimedia - Python)<br>
-                Michael Ippolito (Alice)<br>
-                Justin Rose (Alice)<br>
-              </td>
+                Elena Covill</td>
+              <td>Garret Allen<br>
+                Matt Jimenez</td>
               <td><span style="font-weight: bold; text-decoration: underline;"></span>CSIS110:
-                Intro to CS&nbsp; (Raspberry Pi), CSIS120: Intro to Programming,
-                CSIS210: Data Structures<br>
+                Intro to CS&nbsp; (Multimedia - Python), CSIS120: Intro to
+                Programming, CSIS210: Data Structures<br>
               </td>
             </tr>
             <tr>
               <td style="width: 170px;"><br>
               </td>
-              <td style="margin-left: -65px;">Emily Roehl</td>
+              <td style="margin-left: -65px;"><br>
+              </td>
               <td>CSIS010: Intro to Computer Applications, CSIS114: Management
                 Information Systems, &amp; CSIS115: Database Design and
                 Applications for Business </td>
@@ -87,13 +85,12 @@
             <tr>
               <td colspan="1" rowspan="2">Monday<br>
                 7-10pm</td>
-              <td>Brendan Kish<br>
+              <td>Garret Allen </td>
+              <td><br>
               </td>
-              <td>Aidan Trees (Raspberry Pi)<br>
-                Michael Ippolito (Alice)<br>
-              </td>
-              <td>CSIS110: Intro to CS (Scientific Computing - Python), CSIS120:
-                Intro to Programming, &amp; CSIS210: Data Structures<br>
+              <td>CSIS110: Intro to CS (Scientific Computing - Python &amp;
+                Multimedia - Python), CSIS120: Intro to Programming, &amp;
+                CSIS210: Data Structures<br>
               </td>
             </tr>
             <tr>
@@ -108,20 +105,16 @@
             <tr>
               <td colspan="1" rowspan="2">Tuesday<br>
                 7-10pm</td>
-              <td style="width: 167px;">Elena Covill<br>
-              </td>
-              <td style="margin-left: -64px;">Brendan Kish (Scientific Computing
-                - Python)<br>
-                Aidan Trees (Raspberry Pi)<br>
-                Emma Bostian (Alice)<br>
-                Felicia Bassey (Alice)<br>
-                Michael Ippolito (Alice)</td>
-              <td>CSIS110: Intro to CS&nbsp; (Multimedia - Python), CSIS120:
-                Intro to Programming, &amp; CSIS210: Data Structures<br>
+              <td style="width: 167px;">Matt Jimenez&nbsp; </td>
+              <td style="margin-left: -64px;">Wateek Jones<br>
+                Brendan Kish (Scientific Computing - Python)</td>
+              <td>CSIS110: Intro to CS (Multimedia - Python), CSIS120: Intro to
+                Programming, &amp; CSIS210: Data Structures<br>
               </td>
             </tr>
             <tr>
-              <td>Jacquelyn Verdon</td>
+              <td><br>
+              </td>
               <td><br>
               </td>
               <td>CSIS010: Intro to Computer Applications, CSIS114: Management
@@ -131,15 +124,16 @@
             <tr>
               <td colspan="1" rowspan="2">Wednesday<br>
                 7-10pm</td>
-              <td style="width: 233px;">Elena Covill<br>
-              </td>
-              <td>Aidan Trees (Raspberry Pi) </td>
-              <td style="margin-left: 114px;">CSIS110: Intro to CS&nbsp;
-                (Multimedia - Python), CSIS120: Intro to Programming, &amp;
+              <td style="width: 233px;">Bendan Kish </td>
+              <td>Garrett Allen<br>
+                Wateek Jones</td>
+              <td style="margin-left: 114px;">CSIS110: Intro to CS&nbsp; (Scientific
+                Computing - Python), CSIS120: Intro to Programming, &amp;
                 CSIS210: Data Structures</td>
             </tr>
             <tr>
-              <td>Jacquelyn Verdon</td>
+              <td><br>
+              </td>
               <td><br>
               </td>
               <td>CSIS010: Intro to Computer Applications, CSIS114: Management
@@ -149,18 +143,16 @@
             <tr>
               <td style="width: 125px;" colspan="1" rowspan="2">Thursday<br>
                 7-10pm</td>
-              <td style="width: 194px;">Aidan Trees </td>
-              <td>Felicia Bassey (Alice)<br>
-                Emma Bostian (Alice)<br>
-                Michael Ippolito (Alice)</td>
-              <td style="margin-left: -56px;">CSIS110: Intro to CS&nbsp;
-                (Raspberry Pi), CSIS120: Intro to Programming, CSIS210: Data
-                Structures </td>
+              <td style="width: 194px;">Wateek Jones</td>
+              <td>Garret Allen<br>
+                Brendan Kish</td>
+              <td style="margin-left: -56px;">CSIS110: Intro to CS, CSIS120:
+                Intro to Programming, CSIS210: Data Structures </td>
             </tr>
             <tr>
-              <td>Emily Roehl<br>
+              <td>Emily Roehl </td>
+              <td><br>
               </td>
-              <td>Jacquelyn Verdon</td>
               <td>CSIS010: Intro to Computer Applications, CSIS114: Management
                 Information Systems, &amp; CSIS115: Database Design and
                 Applications for Business </td>
