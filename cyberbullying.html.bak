@@ -23,7 +23,8 @@
     <!--<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">-->
     <!-- Custom styles for this template -->
     <link href="./css/custom.css" rel="stylesheet">
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+
       rel="stylesheet">
   </head>
   <!-- NAVBAR
@@ -32,10 +33,12 @@
       <div class="container">
         <div class="navbar navbar-inverse navbar-static-top" role="navigation">
           <div class="container">
-            <div class="navbar-header"> <button type="button" class="navbar-toggle"
+            <div class="navbar-header"> <button type="button" class="navbar-toggle"
+
                 data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle
                   navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span>
-                <span class="icon-bar"></span> </button> <a class="navbar-brand"
+                <span class="icon-bar"></span> </button> <a class="navbar-brand"
+
                 href="index.html">&nbsp; Home</a> </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
@@ -81,9 +84,9 @@
       <div class="row">
         <div class="col-lg-4">
           <!--<img class="img-circle" src="http://placehold.it/140x140/ff0000/ffffff" alt="Generic placeholder image">-->
-          <img alt="Meg Fryling" src="meg2.png">
+          <img title="Dr. Meg Fryling" alt="Dr. Meg Fryling" src="meg2.png">
           <h2>Dr. Meg Fryling</h2>
-          <p><a class="btn btn-default" href="background.html" role="button">View
+          <p><a class="btn btn-default" href="http://megfryling.com" role="button">View
               details »</a></p>
         </div>
         <!-- /.col-lg-4 -->
@@ -91,7 +94,7 @@
           <!--<img class="img-circle" src="http://placehold.it/140x140/00ff00/ffffff" alt="Generic placeholder image">-->
           <img title="Dr. Jack Rivituso" alt="Dr. Jack Rivituso" src="Jack2.png">
           <h2>Dr. Jack Rivituso</h2>
-          <p><a class="btn btn-default" href="teaching.html" role="button">View
+          <p><a class="btn btn-default" href="" role="button">View
               details »</a></p>
         </div>
         <!-- /.col-lg-4 -->
@@ -99,7 +102,7 @@
           <!--<img class="img-circle" src="http://placehold.it/140x140/0000ff/ffffff" alt="Generic placeholder image">-->
           <img title="Prof. Jami Cotler" alt="Prof. Jami Cotler" src="cotler_small.png">
           <h2>Prof. Jami Cotler</h2>
-          <p><a class="btn btn-default" href="scholarship.html" role="button">View
+          <p><a class="btn btn-default" href="" role="button">View
               details »</a></p>
         </div>
         <!-- /.col-lg-4 --> </div>
@@ -133,7 +136,8 @@
                   (CONISAR), Baltimore, MD.<br>
                   <span style="font-weight: bold; font-style: italic;">Received
                     Best Paper Award</span></li>
-                <li>Fryling, M., Rivituso, J. (2013).&nbsp;<a href="http://www.systemdynamics.org/conferences/2013/proceed/papers/P1006.pdf"
+                <li>Fryling, M., Rivituso, J. (2013).&nbsp;<a href="http://www.systemdynamics.org/conferences/2013/proceed/papers/P1006.pdf"
+
                     target="_blank">Investigation of Cyberbullying Phenomenon as
                     an Epidemic</a>. Paper presented at the 31st International
                   Conference of the System Dynamics Society, Cambridge, MA.</li>
@@ -174,14 +178,18 @@
             </div>
             <div class="panel-body">
               <ul>
-                <li>Yahoo! News:&nbsp;<a href="http://news.yahoo.com/aggression-video-games-not-caused-195018565.html?soc_src=copy"
+                <li>Yahoo! News:&nbsp;<a href="http://news.yahoo.com/aggression-video-games-not-caused-195018565.html?soc_src=copy"
+
                     target="_blank">Aggression In Video Games Not Caused By
                     Violent Content</a>, April 11, 2014</li>
-                <li>Sun Sentinel in Fort Lauderdale and Orlando Sentinel:&nbsp;<a
-                    href="http://www.sun-sentinel.com/news/local/florida/os-darryl-owens-rebecca-sedwick-cyberbullying-20131020,0,6806066.column"
+                <li>Sun Sentinel in Fort Lauderdale and Orlando Sentinel:&nbsp;<a
+
+                    href="http://www.sun-sentinel.com/news/local/florida/os-darryl-owens-rebecca-sedwick-cyberbullying-20131020,0,6806066.column"
+
                     rel="nofollow" target="_blank">Girl's suicide teaches us
                     that parents must be digital guardians</a>, October 20, 2013</li>
-                <li>News 10 ABC and FOX 23:&nbsp;<a href="http://www.news10.com/story/23712424/siena-college-studies-cyberbullying-as-problem-grows"
+                <li>News 10 ABC and FOX 23:&nbsp;<a href="http://www.news10.com/story/23712424/siena-college-studies-cyberbullying-as-problem-grows"
+
                     target="_blank">Siena College studies cyberbullying as
                     problem grows</a>, October 16, 2013</li>
               </ul>
@@ -194,7 +202,8 @@
           <hr>
           <p class="pull-right"><a href="#">Back to top</a></p>
           <p>© 2014 Meg Fryling ·</p>
-          <p>Bootstrap was designed and built by <a href="http://twitter.com/mdo"
+          <p>Bootstrap was designed and built by <a href="http://twitter.com/mdo"
+
               target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.
             Fabulous icons from <a href="http://glyphicons.com">Glyphicons Free</a>,
             licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC
