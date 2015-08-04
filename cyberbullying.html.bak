@@ -32,16 +32,18 @@
     <div class="container marketing">
       <div class="row">
         <div class="panel panel-primary">
-          <div style="text-align: center;" class="panel-heading"><img title="Siena College Cyberbullying Research"
+          <div style="text-align: center;" class="panel-heading"><img
 
-              alt="Siena College Cyberbullying Research" src="customLogo.png" href="http://www.siena.edu"><br>
+              title="Siena College Cyberbullying Research" alt="Siena College Cyberbullying Research"
+
+              src="customLogo.png" href="http://www.siena.edu"><br>
           </div>
           <div class="panel-body">
             <div class="col-lg-4">
               <!--<img class="img-circle" src="http://placehold.it/140x140/ff0000/ffffff" alt="Generic placeholder image">-->
               <img title="Dr. Meg Fryling" alt="Dr. Meg Fryling" src="meg2.png">
               <h2>Dr. Meg Fryling</h2>
-              <p><a class="btn btn-default" href="http://www.megfryling.com" role="button">View
+              <p><a class="btn btn-default" href="http://www.megfryling.com" role="button" target="_blank">View
                   details »</a></p>
             </div>
             <!-- /.col-lg-4 -->
@@ -49,7 +51,9 @@
               <!--<img class="img-circle" src="http://placehold.it/140x140/00ff00/ffffff" alt="Generic placeholder image">-->
               <img title="Dr. Jack Rivituso" alt="Dr. Jack Rivituso" src="Jack2.png">
               <h2>Dr. Jack Rivituso</h2>
-              <p><a class="btn btn-default" href="https://sites.google.com/site/jackrivituso/" role="button">View details »</a></p>
+              <p><a class="btn btn-default" href="https://sites.google.com/site/jackrivituso/"
+
+                  role="button" target="_blank">View details »</a></p>
             </div>
             <!-- /.col-lg-4 -->
             <div class="col-lg-4">
@@ -58,7 +62,7 @@
               <h2>Prof. Jami Cotler</h2>
               <p><a class="btn btn-default" href="https://www.siena.edu/faculty-and-staff/profile/cotler"
 
-                  role="button">View details »</a></p>
+                  role="button" target="_blank">View details »</a></p>
             </div>
           </div>
         </div>
@@ -84,7 +88,7 @@
                       Cyberbullying Victimization Among College Students</a>.
                     Journal of Information Systems Education (JISE), 24(4).</li>
                   <li>Fryling, M., Cotler, J., Rivituso, J., Mathews, L., &amp;
-                    Pratico, S.(2014, November 6-9). <a href="http://proc.conisar.org/2014/pdf/3307.pdf">Cyberbullying
+                    Pratico, S.(2014, November 6-9). <a target="_blank" href="http://proc.conisar.org/2014/pdf/3307.pdf">Cyberbullying
                       or normal game play?&nbsp; Impact of age, gender, and
                       experience on perceptions regarding cyberbullying in
                       multi-player online gaming environments</a>. Paper
@@ -116,7 +120,7 @@
               </div>
               <div class="panel-body">
                 <ul>
-                  <li>Fryling, M. (2014). <a target="_top" href="http://www.pennlive.com/opinion/2014/10/defending_against_cyberbullyin.html">Defending
+                  <li>Fryling, M. (2014). <a target="_blank" href="http://www.pennlive.com/opinion/2014/10/defending_against_cyberbullyin.html">Defending
                       against cyberbullying starts with knowing the tools</a>.
                     The Patriot-News Op-Ed, October 16, 2014. </li>
                   <li>Fryling, M. (2013). Defend Against Cyberbullying by
@@ -165,7 +169,7 @@
 
                 target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.
               Fabulous icons from <a href="http://glyphicons.com">Glyphicons
-                Free</a>, licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC
+                Free</a>, licensed under <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">CC
                 BY 3.0</a>. </p>
           </footer>
         </div>
