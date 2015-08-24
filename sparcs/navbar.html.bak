@@ -5,8 +5,7 @@
   <body><a class="sr-only" href="#content">Skip to main content</a>
     <header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
       <div class="container">
-        <div class="navbar-header"> <button class="navbar-toggle" type="button"
-
+        <div class="navbar-header"> <button class="navbar-toggle" type="button"
             data-toggle="collapse" data-target=".bs-navbar-collapse"> <span class="sr-only">Toggle
               navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span>
             <span class="icon-bar"></span> </button> <a class="navbar-brand" href="index.html">&nbsp;
@@ -27,7 +26,8 @@
           <div class="col-md-8">
             <h2><br>
             </h2>
-            <h1>Siena Plan for Attracting and Retaining Computer Scientists (SPARCS)</h1>
+            <h1>Siena Plan for Attracting and Retaining Computer Scientists
+              (SPARCS)</h1>
           </div>
           <div class="col-md-4"> <br>
             <img src="img/siena.jpg" alt="Siena College Logo">
