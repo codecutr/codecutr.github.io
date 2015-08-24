@@ -9,8 +9,7 @@
     <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
     <title>Siena Plan for Attracting and Retaining Computer Scientists (SPARCS)</title>
     <!-- Bootstrap core CSS -->
-    <link href="http://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet"
-
+    <link href="http://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet"
       type="text/css">
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -42,31 +41,97 @@
         <h1>Summer 2015 Program Schedule&nbsp;</h1>
       </div>
       <div class="table-responsive">
-        <table style="width: 1140px; height: 3654px;" class="table table-bordered table-striped">
+        <table style="width: 1140px; height: 3035px;" class="table table-bordered table-striped">
           <thead>
             <tr>
-              <th>
+              <th> <br>
               </th>
-              <th>Mon 31 Aug</th>
-              <th>Tue 1 Sep</th>
-              <th>Wed 2 Sep</th>
-              <th>Wed 2 Sep</th>
-              <th>Wed 2 Sep</th>
+              <th style="text-align: center;">Mon 31 Aug</th>
+              <th style="text-align: center;">Tue 1 Sep</th>
+              <th style="text-align: center;">Wed 2 Sep</th>
+              <th style="text-align: center;">Thur 3 Sep</th>
+              <th style="text-align: center;">Fri 4 Sep</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td></td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td></td>
+              <td style="text-align: center;"><span style="font-weight: bold;">9AM
+                  – noon, RB136</span></td>
+              <td style="text-align: center;">Welcome Introductions Making it
+                Fit: Data Compression (Dr. Vandenberg, Dr. Fryling) </td>
+              <td style="text-align: center;">Sharing and Communicating: Error
+                Detection, Routing, Deadlock, Data Sharing (Dr. Egan) </td>
+              <td style="text-align: center;">Who’s Next? Putting Things in
+                Order (Dr. Egan) </td>
+              <td style="text-align: center;">Mind Your Own Business: Privacy,
+                Secrecy, and Encryption (Dr. Goldstein) </td>
+              <td style="text-align: center;">Discuss Movie Computing Without
+                Computers: Models of Computation (Dr. Vandenberg and Mr.
+                Matthews) </td>
+            </tr>
+            <tr>
+              <td style="text-align: center;"><span style="font-weight: bold;">Noon
+                  – 1PM</span></td>
+              <td style="text-align: center;">Lunch<br>
+              </td>
+              <td style="text-align: center;">Lunch<br>
+              </td>
+              <td style="text-align: center;">Lunch<br>
+              </td>
+              <td style="text-align: center;">Lunch<br>
+              </td>
+              <td style="text-align: center;">Lunch<br>
+              </td>
+            </tr>
+            <tr>
+              <td style="text-align: center;"><span style="font-weight: bold;">1PM
+                  – 4PM, RB350</span></td>
+              <td style="text-align: center;">Time to Play: Game Development
+                using GameMaker
+                (Dr. Flatland) </td>
+              <td style="text-align: center;">Time to Make Stuff: 3D Printing
+                (Dr. Flatland)
+                (in RB330) </td>
+              <td style="text-align: center;">Visual Programming: Snap! Workshop
+                (Dr. Fryling) </td>
+              <td style="text-align: center;">Putting Yourself Out There: Making
+                a Real Web Page
+                (Dr. Breimer) </td>
+              <td style="text-align: center;">Joyful Noise: Making Music with
+                Python
+                (Dr. Vandenberg) </td>
+            </tr>
+            <tr>
+              <td style="text-align: center;"><span style="font-weight: bold;">4PM-6:30PM</span></td>
+              <td style="text-align: center;">Free time/dinner<br>
+              </td>
+              <td style="text-align: center;">Free time/dinner<br>
+              </td>
+              <td style="text-align: center;">Free time/dinner<br>
+              </td>
+              <td style="text-align: center;">Free time/dinner<br>
+              </td>
+              <td style="text-align: center;">Free time/dinner<br>
+              </td>
+            </tr>
+            <tr>
+              <td style="text-align: center;"><span style="font-weight: bold;">6:30PM-8:30PM,
+                  RB328</span></td>
+              <td style="text-align: center;">Alumni Panel: Life after Siena </td>
+              <td style="text-align: center;">Intern/Research Panel: Life at
+                Siena Beyond the Classroom </td>
+              <td style="text-align: center;">Faculty Panel: Life at Siena in
+                and out of Classroom, Career Opportunities, etc. </td>
+              <td style="text-align: center;">Movie Night: TBA </td>
+              <td style="text-align: center;">Have a great weekend! </td>
             </tr>
           </tbody>
         </table>
       </div>
     </div>
+    <div style="text-align: center;"> <span style="font-weight: bold; font-style: italic;">Siena
+        Dining Hours: 7:30am – 9:30am, 11:30am – 1:30pm, 4:30pm – 7:00pm daily
+        until classes begin </span></div>
     <footer>
       <hr>
       <p class="pull-right"><a href="#">Back to top</a></p>
@@ -88,6 +153,5 @@
     <!-- Latest compiled and minified CSS -->
     <!-- Latest compiled and minified JavaScript -->
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-    
   </body>
 </html>
