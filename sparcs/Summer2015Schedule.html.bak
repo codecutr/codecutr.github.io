@@ -38,7 +38,8 @@
     <div class="container bs-docs-container">
       <!-- Three columns of text below the carousel -->
       <div class="page-header">
-        <h1>Summer 2015 Program Schedule&nbsp;</h1>
+        <h1>SPARCS Summer CSIS Experience </h1>
+        <h1>2015 Schedule</h1>
       </div>
       <div class="table-responsive">
         <table style="width: 1140px; height: 3035px;" class="table table-bordered table-striped">
@@ -87,19 +88,15 @@
               <td style="text-align: center;"><span style="font-weight: bold;">1PM
                   – 4PM, RB350</span></td>
               <td style="text-align: center;">Time to Play: Game Development
-                using GameMaker
-                (Dr. Flatland) </td>
+                using GameMaker (Dr. Flatland) </td>
               <td style="text-align: center;">Time to Make Stuff: 3D Printing
-                (Dr. Flatland)
-                (in RB330) </td>
+                (Dr. Flatland) (in RB330) </td>
               <td style="text-align: center;">Visual Programming: Snap! Workshop
                 (Dr. Fryling) </td>
               <td style="text-align: center;">Putting Yourself Out There: Making
-                a Real Web Page
-                (Dr. Breimer) </td>
+                a Real Web Page (Dr. Breimer) </td>
               <td style="text-align: center;">Joyful Noise: Making Music with
-                Python
-                (Dr. Vandenberg) </td>
+                Python (Dr. Vandenberg) </td>
             </tr>
             <tr>
               <td style="text-align: center;"><span style="font-weight: bold;">4PM-6:30PM</span></td>
