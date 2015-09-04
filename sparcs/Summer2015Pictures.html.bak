@@ -32,7 +32,6 @@
   </head>
   <!-- NAVBAR
 ================================================== --> <body>
-    <div id="includedContent"></div>
     <!-- <div id="includedContent"></div> -->
     <!--================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
@@ -40,99 +39,10 @@
       <!-- Three columns of text below the carousel -->
       <div class="page-header">
         <h1>SPARCS Summer CSIS Experience </h1>
-        <h1>2015 Schedule</h1>
+        <h1>Pictures</h1>
       </div>
-      <div class="table-responsive">
-        <table style="width: 1140px; " class="table table-bordered table-striped">
-          <thead>
-            <tr>
-              <th style="height: 35px;"> <br>
-              </th>
-              <th style="text-align: center; height: 35px;">Mon 31 Aug</th>
-              <th style="text-align: center; height: 35px;">Tue 1 Sep</th>
-              <th style="text-align: center; height: 35px;">Wed 2 Sep</th>
-              <th style="text-align: center; height: 35px;">Thur 3 Sep</th>
-              <th style="text-align: center; height: 35px;">Fri 4 Sep</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td style="text-align: center; height: 150px;"><span style="font-weight: bold;">9AM
-                  – noon, RB136</span></td>
-              <td style="text-align: center; height: 150px;">Welcome<br>
-                Introductions<br>
-                Making it Fit: Data Compression (Dr. Vandenberg, Dr. Fryling) </td>
-              <td style="text-align: center; height: 150px;">Sharing and
-                Communicating: Error Detection, Routing, Deadlock, Data Sharing
-                (Dr. Egan) </td>
-              <td style="text-align: center; height: 150px;">Who’s Next? Putting
-                Things in Order (Dr. Egan) </td>
-              <td style="text-align: center; height: 150px;">Mind Your Own
-                Business: Privacy, Secrecy, and Encryption (Dr. Goldstein) </td>
-              <td style="text-align: center; height: 150px;">Discuss Movie<br>
-                Computing Without Computers: Models of Computation (Dr.
-                Vandenberg and Mr. Matthews) </td>
-            </tr>
-            <tr>
-              <td style="text-align: center; height: 150px;"><span style="font-weight: bold;">Noon
-                  – 1PM</span></td>
-              <td style="text-align: center; height: 150px;">Lunch<br>
-              </td>
-              <td style="text-align: center; height: 150px;">Lunch<br>
-              </td>
-              <td style="text-align: center; height: 150px;">Lunch<br>
-              </td>
-              <td style="text-align: center; height: 150px;">Lunch<br>
-              </td>
-              <td style="text-align: center; height: 150px;">Lunch<br>
-              </td>
-            </tr>
-            <tr>
-              <td style="text-align: center; height: 150px;"><span style="font-weight: bold;">1PM
-                  – 4PM, RB350</span></td>
-              <td style="text-align: center; height: 150px;">Time to Play: Game
-                Development using GameMaker (Dr. Flatland) </td>
-              <td style="text-align: center; height: 150px;">Time to Make Stuff:
-                3D Printing (Dr. Flatland) (in RB330) </td>
-              <td style="text-align: center; height: 150px;">Visual Programming:
-                Snap! Workshop (Dr. Fryling) </td>
-              <td style="text-align: center; height: 150px;">Putting Yourself
-                Out There: Making a Real Web Page (Dr. Breimer) </td>
-              <td style="text-align: center; height: 150px;">Joyful Noise:
-                Making Music with Python (Dr. Vandenberg) </td>
-            </tr>
-            <tr>
-              <td style="text-align: center; height: 150px;"><span style="font-weight: bold;">4PM-6:30PM</span></td>
-              <td style="text-align: center; height: 150px;">Free time/dinner<br>
-              </td>
-              <td style="text-align: center; height: 150px;">Free time/dinner<br>
-              </td>
-              <td style="text-align: center; height: 150px;">Free time/dinner<br>
-              </td>
-              <td style="text-align: center; height: 150px;">Free time/dinner<br>
-              </td>
-              <td style="text-align: center; height: 165px;">Free time/dinner<br>
-              </td>
-            </tr>
-            <tr>
-              <td style="text-align: center; height: 150px;"><span style="font-weight: bold;">6:30PM-8:30PM,
-                  RB328</span></td>
-              <td style="text-align: center; height: 150px;">Alumni Panel: Life
-                after Siena </td>
-              <td style="text-align: center; height: 150px;">Intern/Research
-                Panel: Life at Siena Beyond the Classroom </td>
-              <td style="text-align: center; height: 150px;">Faculty Panel: Life
-                at Siena in and out of Classroom, Career Opportunities, etc. </td>
-              <td style="text-align: center; height: 150px;">Movie Night: TBA </td>
-              <td style="text-align: center; height: 150px;">Have a great
-                weekend! </td>
-            </tr>
-          </tbody>
-        </table>
+      <div><img style="width: 1103px; height: 473px;" alt="Group Picture" src="img/2015GroupPicture.jpg">
       </div>
-      <div style="text-align: center;"> <span style="font-weight: bold; font-style: italic;">Siena
-          Dining Hours: 7:30am – 9:30am, 11:30am – 1:30pm, 4:30pm – 7:00pm daily
-          until classes begin </span></div>
       <footer>
         <hr>
         <p class="pull-right"><a href="#">Back to top</a></p>
