@@ -9,8 +9,7 @@
     <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
     <title>Siena Plan for Attracting and Retaining Computer Scientists (SPARCS)</title>
     <!-- Bootstrap core CSS -->
-    <link href="http://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet"
-
+    <link href="http://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet"
       type="text/css">
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -60,9 +59,9 @@
             <tr>
               <td style="text-align: center; height: 150px;"><span style="font-weight: bold;">9AM
                   – noon, RB136</span></td>
-              <td style="text-align: center; height: 150px;">Welcome
-                Introductions Making it Fit: Data Compression (Dr. Vandenberg,
-                Dr. Fryling) </td>
+              <td style="text-align: center; height: 150px;">Welcome<br>
+                Introductions<br>
+                Making it Fit: Data Compression (Dr. Vandenberg, Dr. Fryling) </td>
               <td style="text-align: center; height: 150px;">Sharing and
                 Communicating: Error Detection, Routing, Deadlock, Data Sharing
                 (Dr. Egan) </td>
@@ -70,7 +69,7 @@
                 Things in Order (Dr. Egan) </td>
               <td style="text-align: center; height: 150px;">Mind Your Own
                 Business: Privacy, Secrecy, and Encryption (Dr. Goldstein) </td>
-              <td style="text-align: center; height: 150px;">Discuss Movie
+              <td style="text-align: center; height: 150px;">Discuss Movie<br>
                 Computing Without Computers: Models of Computation (Dr.
                 Vandenberg and Mr. Matthews) </td>
             </tr>
@@ -131,21 +130,20 @@
           </tbody>
         </table>
       </div>
-    
-    <div style="text-align: center;"> <span style="font-weight: bold; font-style: italic;">Siena
-        Dining Hours: 7:30am – 9:30am, 11:30am – 1:30pm, 4:30pm – 7:00pm daily
-        until classes begin </span></div>
-    <footer>
-      <hr>
-      <p class="pull-right"><a href="#">Back to top</a></p>
-      <p>© 2015 <a target="_blank" href="http://megfryling.com">Meg Fryling</a>.
-        Bootstrap was designed and built by <a href="http://twitter.com/mdo" target="_blank">@mdo</a>
-        and <a href="http://twitter.com/fat" target="_blank">@fat</a>. Fabulous
-        icons from <a href="http://glyphicons.com">Glyphicons Free</a>,
-        licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC
-          BY 3.0</a>. </p>
-    </footer>
-      </div>
+      <div style="text-align: center;"> <span style="font-weight: bold; font-style: italic;">Siena
+          Dining Hours: 7:30am – 9:30am, 11:30am – 1:30pm, 4:30pm – 7:00pm daily
+          until classes begin </span></div>
+      <footer>
+        <hr>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>© 2015 <a target="_blank" href="http://megfryling.com">Meg Fryling</a>.
+          Bootstrap was designed and built by <a href="http://twitter.com/mdo"
+            target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.
+          Fabulous icons from <a href="http://glyphicons.com">Glyphicons Free</a>,
+          licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC
+            BY 3.0</a>. </p>
+      </footer>
+    </div>
     <!-- /.container -->
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -157,6 +155,5 @@
     <!-- Latest compiled and minified CSS -->
     <!-- Latest compiled and minified JavaScript -->
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-    
   </body>
 </html>
