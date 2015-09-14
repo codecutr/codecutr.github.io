@@ -33,7 +33,7 @@
   </head>
   <!-- NAVBAR
 ================================================== --> <body>
-     <div id="includedContent"></div> 
+    <div id="includedContent"></div>
     <!--================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
     <div class="container bs-docs-container">
@@ -42,8 +42,18 @@
         <h1>SPARCS Summer CSIS Experience </h1>
         <h1>Pictures</h1>
       </div>
-      <div><img style="width: 1103px; height: 473px;" alt="Group Picture" src="img/2015GroupPicture.jpg">
+       <div class="table-responsive">
+        <table style="width: 1140px; " class="table table-bordered">
+          <tbody>
+            <tr>
+              <td>
+      <img style="width: 987px; height: 419px;" alt="Group Picture" src="img/GroupPicWithAmandaFrame.jpg"><br>
+                </td>
+            </tr>
+          </tbody>
+         </table>
       </div>
+      <br>
       <footer>
         <hr>
         <p class="pull-right"><a href="#">Back to top</a></p>
@@ -67,6 +77,5 @@
     <!-- Latest compiled and minified CSS -->
     <!-- Latest compiled and minified JavaScript -->
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-    
   </body>
 </html>
