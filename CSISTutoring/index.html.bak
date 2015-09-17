@@ -33,7 +33,6 @@
   <!-- NAVBAR
 ================================================== --> <body>
     <!--******************************-->
-    <div id="includedContent"></div>
     <!--******************************-->
     <!--================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. --><span
@@ -80,9 +79,10 @@
               </td>
               <td style="margin-left: -65px;"><br>
               </td>
-              <td>CSIS010: Intro to Computer Applications, CSIS114: Management
-                Information Systems, &amp; CSIS115: Database Design and
-                Applications for Business </td>
+              <td>CSIS010: Intro to Computer Applications, CSIS011: Problem
+                Solving with Spreadsheets, CSIS114: Management Information
+                Systems, &amp; CSIS115: Database Design and Applications for
+                Business </td>
             </tr>
             <tr>
               <td colspan="1" rowspan="2">Monday<br>
@@ -100,9 +100,10 @@
               </td>
               <td><br>
               </td>
-              <td>CSIS010: Intro to Computer Applications, CSIS114: Management
-                Information Systems, &amp; CSIS115: Database Design and
-                Applications for Business </td>
+              <td>CSIS010: Intro to Computer Applications, CSIS011: Problem
+                Solving with Spreadsheets, CSIS114: Management Information
+                Systems, &amp; CSIS115: Database Design and Applications for
+                Business </td>
             </tr>
             <tr>
               <td colspan="1" rowspan="2">Tuesday<br>
@@ -119,9 +120,10 @@
               </td>
               <td><br>
               </td>
-              <td>CSIS010: Intro to Computer Applications, CSIS114: Management
-                Information Systems, &amp; CSIS115: Database Design and
-                Applications for Business</td>
+              <td>CSIS010: Intro to Computer Applications, CSIS011: Problem
+                Solving with Spreadsheets, CSIS114: Management Information
+                Systems, &amp; CSIS115: Database Design and Applications for
+                Business</td>
             </tr>
             <tr>
               <td colspan="1" rowspan="2">Wednesday<br>
@@ -138,9 +140,10 @@
               </td>
               <td><br>
               </td>
-              <td>CSIS010: Intro to Computer Applications, CSIS114: Management
-                Information Systems, &amp; CSIS115: Database Design and
-                Applications for Business</td>
+              <td>CSIS010: Intro to Computer Applications, CSIS011: Problem
+                Solving with Spreadsheets, CSIS114: Management Information
+                Systems, &amp; CSIS115: Database Design and Applications for
+                Business</td>
             </tr>
             <tr>
               <td style="width: 125px;" colspan="1" rowspan="2">Thursday<br>
@@ -155,9 +158,10 @@
               <td>Emily Roehl </td>
               <td>Willow Johnson<br>
               </td>
-              <td>CSIS010: Intro to Computer Applications, CSIS114: Management
-                Information Systems, &amp; CSIS115: Database Design and
-                Applications for Business </td>
+              <td>CSIS010: Intro to Computer Applications, CSIS011: Problem
+                Solving with Spreadsheets, CSIS114: Management Information
+                Systems, &amp; CSIS115: Database Design and Applications for
+                Business </td>
             </tr>
           </tbody>
         </table>
