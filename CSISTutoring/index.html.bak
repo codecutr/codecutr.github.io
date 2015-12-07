@@ -159,7 +159,125 @@
             </tr>
             <tr>
               <td>Emily Roehl </td>
-              <td>Willow Johnson<br>
+              <td><br>
+              </td>
+              <td>CSIS010: Intro to Computer Applications, CSIS011: Problem
+                Solving with Spreadsheets, CSIS114: Management Information
+                Systems, &amp; CSIS115: Database Design and Applications for
+                Business </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <h1>Spring 2016 Schedule - Tentative</h1>
+      <p>Tutoring will begin <span style="font-weight: bold;">Sunday, January
+          24th</span>.</p>
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th>Day/Time</th>
+              <th style="width: 188px;"> Regular Tutor<br>
+              </th>
+              <td style="width: 232px;"><span style="font-weight: bold;">Subs</span></td>
+              <th style="margin-left: 46px;"> Courses Covered<br>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td colspan="1" rowspan="2">Sunday<br>
+                7-10pm<br>
+              </td>
+              <td> <span style="font-weight: bold; text-decoration: underline;"></span>
+                Brian Smith<br>
+              </td>
+              <td>Emmanuel Rosario </td>
+              <td><span style="font-weight: bold; text-decoration: underline;"></span>CSIS110:
+                Intro to CS&nbsp; (Scientific Computing - Python), CSIS120:
+                Intro to Programming, CSIS210: Data Structures<br>
+              </td>
+            </tr>
+            <tr>
+              <td style="width: 170px;">TBD<br>
+              </td>
+              <td style="margin-left: -65px;"><br>
+              </td>
+              <td>CSIS010: Intro to Computer Applications, CSIS011: Problem
+                Solving with Spreadsheets, CSIS114: Management Information
+                Systems, &amp; CSIS115: Database Design and Applications for
+                Business </td>
+            </tr>
+            <tr>
+              <td colspan="1" rowspan="2">Monday<br>
+                7-10pm</td>
+              <td>Elena Covill </td>
+              <td>Hamza Memon </td>
+              <td>CSIS110: Intro to CS (Multimedia - Python), CSIS120: Intro to
+                Programming, &amp; CSIS210: Data Structures<br>
+              </td>
+            </tr>
+            <tr>
+              <td>Emily Roehl </td>
+              <td>Ryan Davis<br>
+              </td>
+              <td>CSIS010: Intro to Computer Applications, CSIS011: Problem
+                Solving with Spreadsheets, CSIS114: Management Information
+                Systems, &amp; CSIS115: Database Design and Applications for
+                Business </td>
+            </tr>
+            <tr>
+              <td colspan="1" rowspan="2">Tuesday<br>
+                7-10pm</td>
+              <td style="width: 167px;">Hamza Memon</td>
+              <td style="margin-left: -64px;">Elena Covill </td>
+              <td>CSIS110: Intro to CS (Multimedia - Python), CSIS120: Intro to
+                Programming, &amp; CSIS210: Data Structures<br>
+              </td>
+            </tr>
+            <tr>
+              <td>Ryan Davis</td>
+              <td><br>
+              </td>
+              <td>CSIS010: Intro to Computer Applications, CSIS011: Problem
+                Solving with Spreadsheets, &amp; CSIS114: Management Information
+                Systems</td>
+            </tr>
+            <tr>
+              <td colspan="1" rowspan="2">Wednesday<br>
+                7-10pm</td>
+              <td style="width: 233px;">Jessica Leary<br>
+              </td>
+              <td>Brian Smith<br>
+                Hamza Memon<br>
+                Elena Covill<br>
+              </td>
+              <td style="margin-left: 114px;">CSIS110: Intro to CS&nbsp;
+                (Raspberry Pi), CSIS120: Intro to Programming, &amp; CSIS210:
+                Data Structures</td>
+            </tr>
+            <tr>
+              <td><span style="font-style: italic;"></span> Ryan Davis</td>
+              <td><br>
+              </td>
+              <td>CSIS010: Intro to Computer Applications, CSIS011: Problem
+                Solving with Spreadsheets, &amp; CSIS114: Management Information
+                Systems</td>
+            </tr>
+            <tr>
+              <td style="width: 125px;" colspan="1" rowspan="2">Thursday<br>
+                7-10pm</td>
+              <td style="width: 194px;">Matthew Jimenez<br>
+              </td>
+              <td>Emmanuel Rosario<br>
+              </td>
+              <td style="margin-left: -56px;">CSIS110: Intro to CS (Multimedia -
+                Python), CSIS120: Intro to Programming, CSIS210: Data Structures
+              </td>
+            </tr>
+            <tr>
+              <td>Emily Roehl </td>
+              <td><br>
               </td>
               <td>CSIS010: Intro to Computer Applications, CSIS011: Problem
                 Solving with Spreadsheets, CSIS114: Management Information
