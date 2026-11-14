@@ -148,7 +148,22 @@ h1, h2, h3 { font-family: var(--font-head); color: var(--navy); line-height: 1.2
   color: #fff;
   padding: 88px 0 72px;
 }
-.hero-inner { max-width: 760px; }
+.hero-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 48px;
+}
+.hero-copy { max-width: 640px; }
+.hero-photo { flex: none; }
+.hero-photo img {
+  width: 176px;
+  height: 192px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid rgba(201, 162, 75, 0.55);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+}
 .eyebrow {
   text-transform: uppercase;
   letter-spacing: .08em;
@@ -417,6 +432,9 @@ h1, h2, h3 { font-family: var(--font-head); color: var(--navy); line-height: 1.2
 
 /* ---------- Responsive ---------- */
 @media (max-width: 900px) {
+  .hero-inner { flex-direction: column-reverse; text-align: center; gap: 28px; }
+  .hero-copy { max-width: 100%; }
+  .hero-meta, .hero-actions { justify-content: center; }
   .about-grid { grid-template-columns: 1fr; }
   .about-stats { grid-template-columns: 1fr 1fr; }
   .skills-grid { grid-template-columns: 1fr; gap: 28px; }
