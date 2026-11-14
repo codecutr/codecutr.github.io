@@ -181,19 +181,8 @@ h1, h2, h3 { font-family: var(--font-head); color: var(--navy); line-height: 1.2
   font-size: 19px;
   color: #d8dee9;
   max-width: 640px;
-  margin: 0 0 20px;
-}
-.hero-meta {
-  color: #aab4c6;
-  font-size: 15px;
   margin: 0 0 32px;
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
 }
-.hero-meta a { color: #cfd8e8; }
-.hero-meta a:hover { color: var(--gold); }
-
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
@@ -434,7 +423,7 @@ h1, h2, h3 { font-family: var(--font-head); color: var(--navy); line-height: 1.2
 @media (max-width: 900px) {
   .hero-inner { flex-direction: column-reverse; text-align: center; gap: 28px; }
   .hero-copy { max-width: 100%; }
-  .hero-meta, .hero-actions { justify-content: center; }
+  .hero-actions { justify-content: center; }
   .about-grid { grid-template-columns: 1fr; }
   .about-stats { grid-template-columns: 1fr 1fr; }
   .skills-grid { grid-template-columns: 1fr; gap: 28px; }
