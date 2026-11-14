@@ -1,203 +1,386 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="./ico/drmeg-favicon.ico">
-    <title>Meg Fryling, Ph.D.</title>
-    <!-- Bootstrap core CSS -->
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
-    <!--<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">-->
-    <!--<link href="bootstrap.min.css" rel="stylesheet">-->
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>    <![endif]-->
-    <!-- Custom styles for this template -->
-    <link href="./css/carousel.css" rel="stylesheet">
-    <!-- Optional theme -->
-    <!--<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">-->
-    <!-- Custom styles for this template -->
-    <link href="./css/custom.css" rel="stylesheet">
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
-      rel="stylesheet">
-    <script src="js/jquery-1.11.1.js"></script>
-    <script> 
-    $(function(){
-      $("#includedContent").load("navbar.html"); 
-    });
-    </script>
-  </head>
-  <!-- NAVBAR
-================================================== --> <body>
-    <div class="navbar-wrapper">
-      <div class="container">
-        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
-          <div class="container">
-            <div class="navbar-header"> <button type="button" class="navbar-toggle"
-                data-toggle="collapse"
-                data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span> <span
-                  class="icon-bar"></span>
-                <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-              <a class="navbar-brand" href="index.html">&nbsp; Home</a> </div>
-            <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <li><a href="officeHours.html"><span class="glyphicon
-                      glyphicon-user"></span>&nbsp; Contact</a></li>
-                <li><a href="background.html">Background</a></li>
-                <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Teaching</a>
-                  <ul class="dropdown-menu">
-                    <li class="divider"><br>
-                    </li>
-                    <li class="dropdown-header">Siena College</li>
-                    <li><a href="teachingSiena.html">Courses Taught</a></li>
-                    <li><a href="officeHours.html">Office Hours</a></li>
-                    
-                    <li class="divider"><br>
-                    </li>
-                    <li class="dropdown-header">UAlbany</li>
-                    <li><a href="teachingUAlbany.html">Courses Taught</a></li>
-                  </ul>
-                </li>
-                <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Scholarship</a>
-                  <ul class="dropdown-menu">
-                    <li><a href="news.html">News</a></li>
-                    <li><a href="grants.html">Grants</a></li>
-                    <li><a href="presentations.html">Presentations</a></li>
-                    <li><a href="publications.html">Publications</a></li>
-                
-                    <li class="divider"><br>
-                    </li>
-                    <li><a href="grants.html">Grants</a></li>
-                    <li><a href="sparcs/index.html">Siena Plan for Attracting
-                        and Retaining Computer Scientists (SPARCS)</a></li>
-                    <li class="divider"><br>
-                    </li>
-                    <li class="dropdown-header">Conferences</li>
-                    <li><a href="http://iscap.info/#edsigcon">EDSIG Conference
-                        on Information Systems and Computing Education</a></li>
-                    <li><a href="http://iscap.info/#conisar">Conference on
-                        Information Systems Applied Research (CONISAR)</a></li>
-                    <li><a href="https://docs.google.com/document/d/1994XxRFRQO_1BfAPzuIOnhX09O9BRkqhTGPzPkVSHQA/edit?usp=sharing">CCSCNE 2019</a></li>
-                  </ul>
-                </li>
-                <li><a href="http://www.siena.edu/cs" target="_blank">CS@Siena</a></li>
-                <li><a href="http://www.siena.edu" target="_blank">&nbsp; Siena
-                    College</a></li>
-              </ul>
-            </div>
-          </div>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meg Fryling, Ph.D.</title>
+<meta name="description" content="Meg Fryling, Ph.D. — Engineering Team Lead at the Center for Internet Security and academic leader in computing &amp; cybersecurity. Resume, CV, publications, and contact information.">
+<meta name="author" content="Meg Fryling">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231c2b45'/%3E%3Ctext x='32' y='42' font-family='Georgia,serif' font-size='28' fill='%23c9a24b' text-anchor='middle'%3EMF%3C/text%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header" id="top">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top" aria-label="Meg Fryling home">
+      <span class="brand-mark" aria-hidden="true">MF</span>
+      <span class="brand-text">Meg&nbsp;Fryling<span class="brand-suffix">, Ph.D.</span></span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav" aria-label="Toggle navigation menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="site-nav" id="siteNav">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#scholarship">Scholarship</a>
+      <a href="#contact">Contact</a>
+      <a href="./assets/docs/Meg-Fryling-Resume.pdf" class="nav-cta" target="_blank" rel="noopener">Resume</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <p class="eyebrow">Engineering Team Lead &middot; Academic Leader in Computing &amp; Cybersecurity</p>
+      <h1>Meg Fryling, Ph.D.</h1>
+      <p class="hero-lede">
+        Delivery-focused technical leader with 20+ years of experience turning user and stakeholder needs
+        into working software &mdash; paired with a parallel career leading computing and information
+        systems departments in higher education.
+      </p>
+      <p class="hero-meta">
+        <span>St. Petersburg, FL &amp; Albany, NY</span>
+        <span aria-hidden="true">&middot;</span>
+        <a href="mailto:megfryling@gmail.com">megfryling@gmail.com</a>
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="mailto:megfryling@gmail.com">Email Me</a>
+        <a class="btn btn-ghost" href="./assets/docs/Meg-Fryling-Resume.pdf" target="_blank" rel="noopener">Download Resume</a>
+        <a class="btn btn-ghost" href="./assets/docs/Meg-Fryling-CV.pdf" target="_blank" rel="noopener">Download Full CV</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="wrap">
+      <h2 class="section-title"><span class="section-kicker">About</span>Two tracks, one throughline</h2>
+      <div class="about-grid">
+        <div class="about-copy">
+          <p>
+            Currently leads Agile delivery of a multi-tenant SaaS transformation as <strong>Engineering Team
+            Lead at the Center for Internet Security</strong>, working daily with Product, QA, and Engineering
+            to refine the backlog, write acceptance criteria, estimate work, and collaborate directly with
+            customers. Also serves as a <strong>Lecturer in the Department of Cybersecurity at the University
+            at Albany</strong>, bringing current, hands-on industry practice into the classroom.
+          </p>
+          <p>
+            Previously chaired the <strong>Computer Science / Information Systems Department at Siena
+            University</strong> and spent over a decade as a tenured professor teaching software engineering,
+            mobile app development, and web design. Earlier in her career, she led enterprise ERP
+            implementations and legacy data conversions at the University at Albany, balancing competing
+            priorities across many stakeholders as a technical team lead.
+          </p>
+          <p>
+            Ph.D. in Informatics, MBA in Management Information Systems, Graduate Certificate in
+            Cybersecurity, Certified Scrum Master, and AWS Certified Cloud Practitioner &mdash; equally at
+            home writing production code, leading an engineering team, or explaining complex technical
+            concepts to a non-technical audience.
+          </p>
+        </div>
+        <div class="about-stats">
+          <div class="stat"><span class="stat-num">20+</span><span class="stat-label">Years combined industry &amp; academic experience</span></div>
+          <div class="stat"><span class="stat-num">$687,876</span><span class="stat-label">NSF grant led as Principal Investigator</span></div>
+          <div class="stat"><span class="stat-num">18</span><span class="stat-label">Peer-reviewed journal publications</span></div>
+          <div class="stat"><span class="stat-num">7</span><span class="stat-label">Professional &amp; security certifications</span></div>
         </div>
       </div>
     </div>
-    <!-- Carousel
-    ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"><br>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section section-alt" id="experience">
+    <div class="wrap">
+      <h2 class="section-title"><span class="section-kicker">Experience</span>Industry &amp; academic leadership</h2>
+      <p class="section-intro">A single reverse-chronological record of both tracks &mdash; see the
+        <a href="./assets/docs/Meg-Fryling-Resume.pdf" target="_blank" rel="noopener">resume</a> or
+        <a href="./assets/docs/Meg-Fryling-CV.pdf" target="_blank" rel="noopener">full CV</a> for complete detail.</p>
+
+      <ol class="timeline">
+
+        <li class="tl-item">
+          <span class="tl-tag tag-industry">Industry</span>
+          <h3>Engineering Team Lead</h3>
+          <p class="tl-org">Center for Internet Security</p>
+          <p class="tl-dates">2024 &ndash; Present</p>
+          <ul>
+            <li>Lead a high-performing engineering team of interns, senior, and principal engineers delivering SecureSuite and other cybersecurity products for &ldquo;cyber underserved&rdquo; organizations, using Java/Groovy, Grails, Gradle, and Spring Framework.</li>
+            <li>Leading architecture of a cloud-native, multi-tenant SaaS version of the CIS SecureSuite platform (MariaDB, Keycloak, Auth0, Liquibase, Docker, Kubernetes).</li>
+            <li>Drive Agile execution and team growth; champion secure coding, test coverage, and CI/CD practices (CircleCI), including AI-assisted development with Claude Code.</li>
+          </ul>
         </li>
-        <li data-target="#myCarousel" data-slide-to="1"><br>
+
+        <li class="tl-item">
+          <span class="tl-tag tag-academic">Academic</span>
+          <h3>Lecturer, Department of Cybersecurity</h3>
+          <p class="tl-org">University at Albany</p>
+          <p class="tl-dates">2024 &ndash; Present</p>
+          <ul>
+            <li>Instruct the undergraduate course &ldquo;Web Technologies Essentials,&rdquo; covering HTML, CSS, and JavaScript fundamentals.</li>
+            <li>Develop curriculum that bridges theoretical concepts with industry-aligned practice; mentor students on cybersecurity career paths.</li>
+          </ul>
         </li>
-        <li data-target="#myCarousel" data-slide-to="2"><br>
+
+        <li class="tl-item">
+          <span class="tl-tag tag-industry">Industry</span>
+          <h3>Senior Software Engineer</h3>
+          <p class="tl-org">Center for Internet Security</p>
+          <p class="tl-dates">2022 &ndash; 2024</p>
+          <ul>
+            <li>Developed clean, reusable code for CIS&rsquo;s enterprise security application suite; led refactoring, QA processes, and defect resolution across multiple product lines.</li>
+            <li>Architected and maintained CI/CD pipelines; mentored junior engineers, conducted code reviews, and participated in on-call support rotation.</li>
+          </ul>
         </li>
+
+        <li class="tl-item">
+          <span class="tl-tag tag-academic">Academic</span>
+          <h3>Computer Science / Information Systems Department Chair</h3>
+          <p class="tl-org">Siena University</p>
+          <p class="tl-dates">2021 &ndash; 2022</p>
+          <ul>
+            <li>Led curriculum assessment, faculty recruitment and evaluation, budget, and course scheduling for the CS/IS department; chaired tenure-track faculty searches.</li>
+            <li>Implemented student recruitment and retention strategies, achieving measurable enrollment growth; represented the department in university governance.</li>
+          </ul>
+        </li>
+
+        <li class="tl-item">
+          <span class="tl-tag tag-academic">Academic</span>
+          <h3>Associate Professor of Computer Science</h3>
+          <p class="tl-org">Siena University <span class="tl-note">(Assistant Professor, 2011&ndash;17)</span></p>
+          <p class="tl-dates">2011 &ndash; 2022</p>
+          <ul>
+            <li>Taught object-oriented programming, software engineering, database design/development, mobile app development, and web design (Java, Python, PHP, JavaScript).</li>
+            <li>Redesigned four core courses using the flipped-classroom model, producing a library of 100+ original lecture videos.</li>
+            <li>Principal Investigator on a $687,876 NSF grant to increase enrollment and diversity in Computer Science; conducted and published peer-reviewed research in information systems.</li>
+          </ul>
+        </li>
+
+        <li class="tl-item">
+          <span class="tl-tag tag-academic">Academic</span>
+          <h3>Instructor</h3>
+          <p class="tl-org">Zhejiang Institute of Mechanical &amp; Electrical Engineering (ZIME), Hangzhou, China</p>
+          <p class="tl-dates">2015 &ndash; 2020 (Summers)</p>
+          <ul>
+            <li>Taught Database Concepts to undergraduates, in person (2015) and online (2016&ndash;2020), in a cross-cultural, international setting.</li>
+          </ul>
+        </li>
+
+        <li class="tl-item">
+          <span class="tl-tag tag-industry">Industry</span>
+          <h3>Associate Director, ITS</h3>
+          <p class="tl-org">University at Albany</p>
+          <p class="tl-dates">2010 &ndash; 2011</p>
+          <ul>
+            <li>Directed planning, delivery, and management of enterprise messaging and collaboration services for 18,000+ users.</li>
+            <li>Conducted stakeholder analysis and vendor evaluations for critical infrastructure decisions; provided strategic technology recommendations to senior leadership.</li>
+          </ul>
+        </li>
+
+        <li class="tl-item">
+          <span class="tl-tag tag-academic">Academic</span>
+          <h3>Instructor</h3>
+          <p class="tl-org">University at Albany</p>
+          <p class="tl-dates">2007 &ndash; 2010</p>
+          <ul>
+            <li>Taught Information Storage &amp; Retrieval (undergraduate/graduate), Web Database Programming (graduate), and Database Development (graduate).</li>
+          </ul>
+        </li>
+
+        <li class="tl-item">
+          <span class="tl-tag tag-industry">Industry</span>
+          <h3>Tech Lead / Assistant Director, ITS</h3>
+          <p class="tl-org">University at Albany</p>
+          <p class="tl-dates">2002 &ndash; 2010</p>
+          <ul>
+            <li>Led enterprise administrative applications strategy, including a PeopleSoft/Oracle ERP implementation and complex legacy data conversions.</li>
+            <li>Built and managed a technical team of 5&ndash;9 software engineers; conducted business process reengineering and fit-gap analysis; coordinated vendor and consultant relationships.</li>
+          </ul>
+        </li>
+
+        <li class="tl-item">
+          <span class="tl-tag tag-academic">Academic</span>
+          <h3>Instructor</h3>
+          <p class="tl-org">Siena University</p>
+          <p class="tl-dates">2003 &ndash; 2007</p>
+          <ul>
+            <li>Taught Introduction to Computer Applications and Management Information Systems (undergraduate).</li>
+          </ul>
+        </li>
+
+        <li class="tl-item">
+          <span class="tl-tag tag-industry">Industry</span>
+          <h3>Senior Programmer-Analyst, ITS</h3>
+          <p class="tl-org">University at Albany</p>
+          <p class="tl-dates">1998 &ndash; 2002</p>
+          <ul>
+            <li>Specialized in PeopleSoft/Oracle ERP customization and maintenance; led analysis, programming, testing, and implementation of integrated information systems.</li>
+            <li>Developed critical interfaces between mainframe and ERP systems. <em>Technologies: COBOL, Oracle Database, PeopleSoft, MySQL, SQL, Perl, XML, HTML.</em></li>
+          </ul>
+        </li>
+
       </ol>
-      <div class="carousel-inner">
-        <div class="item active"> <img src="SienaHall1.jpg" alt="">
-          <div class="container">
-            <div class="carousel-caption">
-              <!--<h1>Software Engineering @ Siena</h1>-->
-              <!--p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>-->
-              <a class="btn btn-lg btn-primary" href="https://www.siena.edu/departments/computer-science/"
-                target="_blank"
-                role="button">Computer Science @ Siena »</a> </div>
-          </div>
+
+      <div class="service-block">
+        <h3>Leadership &amp; Service</h3>
+        <ul class="service-list">
+          <li><strong>Board Member, AITP-EDSIG</strong> (2015&ndash;2017) &mdash; fostered academia&ndash;industry collaboration in IS education; organized ISECON/EDSIGCON and CONISAR; oversaw JISE, ISEDJ, and JISAR editorial operations.</li>
+          <li><strong>Editorial Board</strong> &mdash; JISE (2017&ndash;2022), ISEDJ (2016&ndash;2022), JISAR (2016&ndash;2022).</li>
+          <li><strong>Reviewer</strong> (2005&ndash;2022) &mdash; JISAR, ISEDJ, CONISAR, International System Dynamics Conference, Enterprise Information Systems Journal, CCSCNE, EDUCAUSE Annual Conference, HICSS.</li>
+          <li><strong>Siena College governance</strong> &mdash; Presidential Search Committee (2019&ndash;2020); School of Business Dean Search Committee (2013&ndash;2014); Vice-Chair &amp; At-Large Representative, General Faculty Committee; Board of Trustees Institutional Identity &amp; Branding Committee.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section" id="education">
+    <div class="wrap">
+      <h2 class="section-title"><span class="section-kicker">Education</span>Degrees &amp; credentials</h2>
+      <div class="edu-grid">
+        <div class="edu-item">
+          <h3>Ph.D., Informatics</h3>
+          <p>University at Albany</p>
         </div>
-        <div class="item"> <img src="cropped-promethean-ad.jpg" alt="">
-          <!--<img src="http://placehold.it/900x500" alt="">-->
-          <div class="container">
-            <div class="carousel-caption">
-              <a class="btn btn-lg btn-primary" href="https://www.siena.edu/programs/data-science/"
-                target="_blank"
-                role="button">Data Science @ Siena »</a> </div>
-            </div>
-          </div>
+        <div class="edu-item">
+          <h3>MBA, Management Information Systems</h3>
+          <p>University at Albany</p>
+        </div>
+        <div class="edu-item">
+          <h3>Graduate Certificate, Cybersecurity</h3>
+          <p>University at Albany</p>
+        </div>
+        <div class="edu-item">
+          <h3>B.S., Computer Science</h3>
+          <p>Siena University</p>
+        </div>
+        <div class="edu-item">
+          <h3>A.S., Business Administration</h3>
+          <p>Schenectady County Community College</p>
+        </div>
+        <div class="edu-item">
+          <h3>A.A.S., Paralegal Studies</h3>
+          <p>Schenectady County Community College</p>
         </div>
       </div>
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span
-          class="glyphicon glyphicon-chevron-left"></span></a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span
-          class="glyphicon
-          glyphicon-chevron-right"></span></a> </div>
-    <!-- /.carousel -->
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-    <div class="container marketing">
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="col-lg-4">
-          <!--<img class="img-circle" src="http://placehold.it/140x140/ff0000/ffffff" alt="Generic placeholder image">-->
-          <h2>Background</h2>
-          <p>I am an associate professor and chair of the computer science and information
-            systems department at Siena College.  Prior to coming to Siena, I held the position of associate director of
-            Information Technology Services at the University at Albany
-            (UAlbany).</p>
-          <p><a class="btn btn-default" href="background.html" role="button">View
-              details »</a></p>
-        </div>
-        <!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <!--<img class="img-circle" src="http://placehold.it/140x140/00ff00/ffffff" alt="Generic placeholder image">-->
-          <h2>Teaching</h2>
-          <p>As an undergraduate educator my responsibility is to guide students
-            from an instructor-centered educational paradigm to a
-            learner-centered environment, where they can be enthusiastic
-            self-guided learners and teachers to their fellow classmates.</p>
-          <p><a class="btn btn-default" href="teaching.html" role="button">View
-              details »</a></p>
-        </div>
-        <!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <!--<img class="img-circle" src="http://placehold.it/140x140/0000ff/ffffff" alt="Generic placeholder image">-->
-          <h2>Scholarship</h2>
-          <p>My research interests include studying the dynamic complexities of
-            information systems in both the pre- and post-implementation
-            environments as well as the impact of information systems on
-            individuals, organizations, and society.</p>
-          <p><a class="btn btn-default" href="scholarship.html" role="button">View
-              details »</a></p>
-        </div>
-        <!-- /.col-lg-4 --> </div>
-      <!-- /.row -->
-      <!-- FOOTER -->
-      <footer>
-        <hr>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>© 2014 Meg Fryling ·</p>
-        <p>Bootstrap was designed and built by <a href="http://twitter.com/mdo"
-            target="_blank">@mdo</a>
-          and <a href="http://twitter.com/fat" target="_blank">@fat</a>.
-          Fabulous icons from <a href="http://glyphicons.com">Glyphicons Free</a>,
-          licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC
-            BY 3.0</a>. </p>
-      </footer>
+
+      <h3 class="subhead">Certifications</h3>
+      <ul class="pill-list">
+        <li>AWS Certified Cloud Practitioner</li>
+        <li>GIAC Security Essentials (GSEC)</li>
+        <li>GIAC Certified Enterprise Defender (GCED)</li>
+        <li>Security Analyst Level 1 (SAL1)</li>
+        <li>Certified Scrum Master (CSM)</li>
+        <li>Mendix Rapid Developer</li>
+        <li>Systems Software Integrator (SSI), NICET</li>
+        <li>Cal Poly Cert., Machine Learning &amp; AI <em>(in progress)</em></li>
+      </ul>
     </div>
-    <!-- /.container -->
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')</script>
-    <!--<script src="/js/bootstrap.min.js"></script>
-    <script src="/js/docs.min.js"></script>-->
-    <!-- Latest compiled and minified CSS -->
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-  </body>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section section-alt" id="skills">
+    <div class="wrap">
+      <h2 class="section-title"><span class="section-kicker">Skills</span>Core competencies</h2>
+
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Leadership &amp; Management</h3>
+          <ul class="pill-list">
+            <li>Team Leadership</li><li>Project Management</li><li>Strategic Planning</li>
+            <li>Business Process Reengineering</li><li>Agile / Scrum</li><li>Mentoring &amp; Development</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Technical Expertise</h3>
+          <ul class="pill-list">
+            <li>Java</li><li>Groovy / Grails</li><li>Spring (Boot, MVC, Security, Data)</li>
+            <li>TypeScript</li><li>PrimeVue</li><li>Python</li><li>JavaScript</li><li>PHP</li><li>SQL</li><li>Bash</li>
+            <li>RESTful APIs</li><li>Microservices</li><li>PostgreSQL</li><li>MariaDB</li><li>Oracle</li><li>MySQL</li>
+            <li>AWS</li><li>Docker</li><li>CI/CD</li><li>Keycloak</li><li>Liquibase</li><li>Claude Code</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Specialized Areas</h3>
+          <ul class="pill-list">
+            <li>Cybersecurity</li><li>Enterprise Software Development</li>
+            <li>Academic Instruction</li><li>Research</li><li>Quality Assurance</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SCHOLARSHIP -->
+  <section class="section" id="scholarship">
+    <div class="wrap">
+      <h2 class="section-title"><span class="section-kicker">Scholarship</span>Grants, publications &amp; honors</h2>
+
+      <h3 class="subhead">Grants &amp; Funded Research</h3>
+      <ul class="plain-list">
+        <li><strong>NSF Undergraduate STEM Education (IUSE) Grant</strong>, Award #1432198, Principal Investigator, $687,876 (2014&ndash;2021).</li>
+        <li><strong>Siena College Institute for AI (SCIAI) REU</strong>, funded by NSF, Faculty Mentor, &ldquo;Detecting Cyberbullying in Social Media&rdquo; (2016).</li>
+        <li><strong>Siena College COTFD Research Fellowship Grant</strong>, $2,365, cyberbullying research in multiplayer online gaming (2016).</li>
+      </ul>
+
+      <h3 class="subhead">Selected Publications (Peer-Reviewed)</h3>
+      <ul class="plain-list">
+        <li>Fryling, M. (2020). From Flipped, to Flipped Out, to Mostly Sunny: How the Flipped Classroom Model Made the Move to Emergency Remote Learning Less Stormy. <em>Issues in Information Systems</em>, 21(1), 281&ndash;289.</li>
+        <li>Fryling, M. (2019). Low Code App Development. <em>The Journal of Computing Science in Colleges</em>, 34(6), 119.</li>
+        <li>Fryling, M. (2018). Gender, Over Sharing, and Cyberbullying in Online Multi-Player Gaming (MMOG) Environments. <em>Issues in Information Systems</em>, 19(2), 140&ndash;148.</li>
+        <li>Cotler, J., Fryling, M., &amp; Rivituso, J. (2017). Causes of cyberbullying in multi-player online gaming environments: Gamer perceptions. <em>Journal of Information Systems Applied Research</em>, 10(1), 4&ndash;14.</li>
+        <li>Fryling, M., Yoder, R., &amp; Breimer, E. (2016). Full Flip, Half Flip and No Flip: Evaluation of Flipping an Introductory Programming Course. <em>Information Systems Education Journal</em>, 14(5), 4&ndash;16.</li>
+        <li>Fryling, M. (2015). Investigating the Effect of Customization on Rework in a Higher Education ERP Post-Implementation Environment: A System Dynamics Approach. <em>Journal of Information Technology Case and Application Research</em>, 17(1), 8&ndash;40.</li>
+        <li>Fryling, M. (2010). Estimating the impact of enterprise resource planning project management decisions on post-implementation maintenance costs: a case study using simulation modelling. <em>Enterprise Information Systems</em>, 4(4), 391&ndash;421.</li>
+      </ul>
+      <p class="fine-print">Full publication list &mdash; 18 refereed journal articles and 20+ refereed conference proceedings &mdash; available in the <a href="./assets/docs/Meg-Fryling-CV.pdf" target="_blank" rel="noopener">full CV</a>.</p>
+
+      <h3 class="subhead">Honors &amp; Awards</h3>
+      <ul class="plain-list">
+        <li>Professional Achievement Award, University at Albany College of Emergency Preparedness, Homeland Security &amp; Cybersecurity (2026).</li>
+        <li>Meritorious Paper Award, EDSIG Conference on Information Systems and Computing Education (2015).</li>
+        <li>Best Paper Award, Conference on Information Systems Applied Research (CONISAR) (2014).</li>
+        <li>Certificate of Appreciation, University at Albany, for ITS website and helpdesk wiki implementation (2011).</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section-alt" id="contact">
+    <div class="wrap contact-wrap">
+      <h2 class="section-title"><span class="section-kicker">Contact</span>Let&rsquo;s connect</h2>
+      <p class="section-intro">Open to conversations on engineering leadership, cybersecurity, and computing education.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="mailto:megfryling@gmail.com">megfryling@gmail.com</a>
+        <a class="btn btn-ghost" href="./assets/docs/Meg-Fryling-Resume.pdf" target="_blank" rel="noopener">Download Resume</a>
+        <a class="btn btn-ghost" href="./assets/docs/Meg-Fryling-CV.pdf" target="_blank" rel="noopener">Download Full CV</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; <span id="year">2026</span> Meg Fryling, Ph.D.</p>
+    <p><a href="#top">Back to top</a></p>
+  </div>
+</footer>
+
+<script src="./assets/js/main.js"></script>
+</body>
 </html>
